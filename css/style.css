@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+  font-family:"BacktoBlack";
+  src: url("../css/font/back-to-black-bold-demo.regular.ttf") format("truetype");
+}
+h2 {
+   font-family:"BacktoBlack";
+}
+body {
+    font-family: 'Century Gothic';
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    background: #fff;
+    height: 111px;
+    margin: 15px;
+}
+.nav-toggle{
+    display: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu {
+    float: right;
+    margin: 37px 0;
+}
+header ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+}
+header li {
+    padding: 10px 15px;
+}
+li.activeli {
+    font-weight: bolder;
+}
+
+img.logo {
+    padding-top: 20px;
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+/*banner section*/
+#banner {
+    background: url(../img/bannerimg.jpg);
+    height: 81vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    position: relative;
+    float: right;
+}
+#banner h1 {
+   font-family:"BacktoBlack";
+    font-size: 8vw;
+    color: #252424;
+}
+
+/*who we are section*/
+#whoweare {
+    padding: 50px 0;
+    height: 100%;
+}
+.weare {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.weareContent {
+    padding: 0 10px;
+}
+#whoweare h2{
+    font-family:"BacktoBlack";
+    font-size: 50px;
+    padding: 20px 0;
+    color: #a67c52;
+    letter-spacing: 3px;
+}
+#whoweare p {
+    line-height: 1.6;
+    font-size: 20px;
+    text-align: justify;
+}
+.vinegar {
+    height: 440px;
+    width: auto;
+}
+
+/*Best Dishes section*/
+#bestDishes {
+    background: url(../img/dishesbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #ffff;
+    padding-bottom: 50px;
+}
+#bestDishes h2 {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-family:"BacktoBlack";
+}
+.dishes {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    align-items: center;
+    text-align: center;
+}
+.dishesContent {
+    padding: 0 20px;
+}
+#bestDishes h5 {
+    font-size: 25px;
+   font-family:"BacktoBlack";
+    letter-spacing: 3px;
+    line-height: 2;
+}
+img.pasta {
+    width: 200px;
+    height: auto;
+}
+
+/*What is pasta section*/
+#whatispasta {
+    padding: 100px 0;
+}
+#whatispasta h2 {
+    font-family:"BacktoBlack";
+    font-size: 50px;
+    color: #a67c52;
+    letter-spacing: 3px;
+}
+#whatispasta p {
+    line-height: 2;
+    text-align: justify;
+}
+.whatpasta {
+    width: 80%;
+}
+.whatpasta:after {
+    content: url(../img/pastaImg.png);
+    position: absolute;
+    transform: translateY(-83%);
+    right: 56px;
+}
+.pastaContent {
+    z-index: 1;
+    position: relative;
+}
+a.read {
+    color: #4a4a4a;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:"BacktoBlack";
+}
+.pastaDesign {
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+     padding: 50px;
+}
+/*Pasta Love Section*/
+#pastalove {
+    background: url(../img/pastalove.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    color: #ffff;
+}
+.pastaloveContent {
+    top: 50px; 
+    line-height: 2;
+    width: 55%;
+    left: 20px;
+    padding: 50px 0;
+    text-align: center;
+}
+#pastalove h2 {
+    font-family:"BacktoBlack";
+    font-size: 50px;
+    padding: 20px 0;
+    color: #fff;
+    letter-spacing: 3px;
+    text-align: center;
+}
+a.order {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:"BacktoBlack";
+    letter-spacing: 1px;
+}
+/*BookNow Section*/
+#booknow {
+    background: url(../img/booknow.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    color: #ffff;
+    background-size: 88%;
+   background-position: center;
+   padding: 100px 0;
+}
+
+#booknow h2 {
+    font-family:"BacktoBlack";
+    font-size: 50px;
+    color: #a67c52;
+    letter-spacing: 3px;
+    padding-bottom: 25px;
+}
+form {
+    position: relative;
+    width: 70%;
+    text-align: center;
+}
+
+input[type=text] {
+    background-color: #e1e1e1;
+    color: white;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 10px 9px;
+    width: 30%;
+    margin: 5px;
+    outline: none;
+}
+textarea {
+    background-color: #e1e1e1;
+    width: 98%;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    padding: 0 5px;
+    border-radius: 15px;
+ }
+
+button#contact-submit {
+    background: #a67c52;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/*Footer Section*/
+footer {
+    background: #a67c52;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.weare {
+    display: block;
+    text-align: center;
+}
+input[type=text] {
+    width: 25%;
+}
+img.logo {
+    width: 154px;
+    height: auto;
+    float: left;
+}
+header li {
+    padding: 5px;
+}
+nav {
+    background: #fff;
+    height: 85px;
+}}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+#banner {
+    background: url(../img/bannerimg1.jpg);
+    width: 100%;
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+   input[type=text] {
+        width: 27%;
+}}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+header ul li {
+    display: block;
+   border-bottom: 1px dashed #ffc107bf;
+}
+li.activeli {
+    font-weight: normal;
+}
+
+img.logo {
+    width: 120px;
+    height: auto;
+    float: left;
+}
+nav {
+    background: #fff;
+    height: 70px;
+    margin: 15px;
+}
+.menu {
+    float: right;
+    width: 100%; 
+    display: none;
+}
+.nav-toggle {
+    display: block;
+    float: right;
+    top: 20px;
+    position: relative;
+    padding: 10px;
+    border: none;
+    background: #ffd00f;
+    color: #b10201;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+}
+.nav-toggle .menu {
+    display: block;
+}
+header .secondNav #navi ul {
+      display: block;
+      text-align: center;
+      justify-content: center;
+      padding: 0; }
+.menu-active {
+    display: block;
+}
+.js .menu {
+    overflow: hidden;
+    max-height: 0; }
+.js .menu-active {
+    max-height: 100%;
+}
+
+.weare {
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+.weareContent {
+    padding: 0;
+}
+.vinegar {
+    height: auto;
+    width: 100%;
+}
+.dishes {
+    display: block;
+}
+.dishesContent {
+    padding: 0;
+}
+.whatpasta {
+    width: 100%;
+}
+.whatpasta:after {
+    content: url(../img/pastaImg1.png);
+    position: absolute;
+    transform: translateY(-74%);
+    right: 7px;
+}
+img.pasta {
+    width: 200px;
+    height: auto;
+}
+#pastalove {
+    height: 100%;
+}
+.pastaloveContent {
+    line-height: 2;
+    width: 100%;
+    left: 20px;
+}
+form {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+}
+input[type=text] {
+    width: 96%;
+}
+#pastalove h2 {
+    letter-spacing: 0;
+}
+#whoweare h2 {
+     letter-spacing: 0;
+}
+#banner {
+    background: url(../img/bannerimg1.jpg);
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
+.pastaDesign {
+    padding: 20px;
+}
+#booknow {
+    background-size: cover;
+}
+#whoweare h2 {
+    font-size: 32px;
+    }
+#bestDishes h2 {
+    font-size: 32px;
+    }
+#whatispasta h2 {
+    font-size: 32px;
+    }
+#pastalove h2 {
+    font-size: 32px;
+    }
+#booknow h2 {
+    font-size: 32px;
+    }
+}
+
+
