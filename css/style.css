@@ -19,8 +19,8 @@ body {
 
 nav {
     background: #fff;
-    height: 111px;
-    margin: 15px;
+/*    height: 111px;
+    margin: 15px;*/
 }
 .nav-toggle{
     display: none;
@@ -33,7 +33,7 @@ nav {
 
 .menu {
     float: right;
-    margin: 37px 0;
+    margin: 40px 0;
 }
 header ul li {
     list-style: none;
@@ -41,14 +41,13 @@ header ul li {
     font-size: 20px;
 }
 header li {
-    padding: 10px 15px;
+    padding: 0 10px;
 }
 li.activeli {
     font-weight: bolder;
 }
-
 img.logo {
-    padding-top: 20px;
+    padding: 10px 0;
     width: 200px;
     height: auto;
     float: left;
@@ -288,12 +287,15 @@ input[type=text] {
     width: 25%;
 }
 img.logo {
-    width: 154px;
+    width: 177px;
     height: auto;
     float: left;
 }
+.menu {
+    margin: 28px 0;
+}
 header li {
-    padding: 5px;
+    padding: 5px 8px;
 }
 nav {
     background: #fff;
@@ -328,11 +330,12 @@ img.logo {
     width: 120px;
     height: auto;
     float: left;
+    padding: 10px 0;
 }
 nav {
     background: #fff;
-    height: 70px;
-    margin: 15px;
+/*    height: 70px;
+    margin: 15px;*/
 }
 .menu {
     float: right;
