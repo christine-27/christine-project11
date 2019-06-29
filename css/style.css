@@ -325,6 +325,9 @@ header ul li {
 li.activeli {
     font-weight: normal;
 }
+.menu {
+    margin: 20px 0;
+}
 
 img.logo {
     width: 120px;
